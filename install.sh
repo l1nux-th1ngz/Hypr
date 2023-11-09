@@ -20,8 +20,8 @@ fi
 if command -v paru &>/dev/null; then
   echo "Paru $(paru -V | awk '{print $2}') is already installed in your system"
 else
-  if command -v yay &>/dev/null; then
-    echo "Yay $(yay -V | awk '{print $2}') is installed in your system"
+  if # command -v yay &>/dev/null; then
+    # echo "Yay $(yay -V | awk '{print $2}') is installed in your system"
   else
     echo "Neither Paru nor Yay is present in your system."
     echo "Installing Paru..."
@@ -34,7 +34,8 @@ mkdir -p ~/.config
 cp -R config/* ~/.config/
 
 # Installing Essential Programs
-paru -S wayland qt5-wayland qt6-wayland hyprpaper hyprpicker hyprshot hyprland kitty wezterm gnome-tweak-tool xorg-xwayland alsa-utils brightnessctl playerctl /
+paru -S wayland-git wayland-protocols-git qt5-wayland qt6-wayland hyprpaper hyprpicker spotify spotify-tray-git
+hyprshot hyprland kitty wezterm gnome-tweak-tool xorg-xwayland alsa-utils brightnessctl spotify-adblock-git playerctl /
 imv mpv rofi-lbonn-wayland-git brave-bin gnome-tweak-tool qt5ct kvantum gedit neovim pavucontrol stacer eww-wayland socat jq acpi inotify-tools /
 bluez nm-connection-editor gjs gnome-bluetooth-3.0 upower gtk3 networkmanager wl-clipboard polkit-kde-agent flatpak
 paru -S ttf-ms-win11-auto adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts ttf-jetbrains-mono-nerd ttf-jetbrains-mono otf-font-awesome nerd-fonts-sf-mono otf-nerd-fonts-monacob-mono -y  ##fonts

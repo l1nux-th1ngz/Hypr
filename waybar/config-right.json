@@ -1,0 +1,42 @@
+{
+    "layer": "top",
+    "position": "right",
+    "width": 50,
+    "modules-left": ["custom/firefox", "custom/geany", "custom/chrome", "custom/vscode", "custom/vivaldi", "custom/marker", "custom/brave", "custom/typora"],
+    "custom/firefox": {
+        "format": "",
+        "return-type": "json",
+        "exec": "firefox",
+        "on-click": "firefox"
+    },
+    "custom/geany": {
+        "format": "",
+        "return-type": "json",
+        "exec": "geany",
+        "on-click": "geany"
+    },
+    "custom/chrome": {
+        "format": "",
+        "return-type": "json",
+        "exec": "google-chrome-stable",
+        "on-click": "google-chrome-stable"
+    },
+    "custom/vscode": {
+        "format": "",
+        "return-type": "json",
+        "exec": "code",
+        "on-click": "code"
+    },
+    "custom/vivaldi": {
+        "format": "",
+        "return-type": "json",
+        "exec": "vivaldi-stable",
+        "on-click": "vivaldi-stable"
+    },
+    "custom/marker": {
+        "format": "",
+        "return-type": "json",
+        "exec": "marker",
+        "on-click": "marker"
+    }
+}

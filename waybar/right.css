@@ -1,0 +1,62 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 16px;
+    min-height: 0;
+}
+
+window#waybar {
+    border-radius: 10px;
+    background: #010409;
+    color: #cdd6f4;
+}
+
+tooltip {
+    background: #010409;
+    border-radius: 10px;
+}
+
+#firefox,
+#geany,
+#chrome,
+#vscode,
+#vivaldi,
+#marker,
+#brave,
+#typora {
+    padding: 0px 10px;
+}
+
+#firefox {
+    color: #fab387;
+}
+
+#geany {
+    color: #f9e2af;
+}
+
+#chrome {
+    color: #89b4fa;
+}
+
+#vscode {
+    color: #cba6f7;
+}
+
+#vivaldi {
+    color: #a6e3a1;
+}
+
+#marker {
+    color: #eba0ac;
+}
+
+#brave {
+    color: #a6adc8;
+}
+
+#typora {
+    color: #cdd6f4;
+}
